@@ -1,0 +1,58 @@
+/**
+*David TARCZEWSKI
+*/
+
+body {
+	border: 1px solid black;
+}
+
+header {
+	border: 1px solid blue;
+	text-align: center;
+}
+
+nav {
+	border: 1px solid green;
+	margin: auto;
+}
+
+nav ul {
+	margin: auto;
+}
+
+nav ul li {
+	display: inline-block;
+	border: 1px dashed lime;
+	margin: 2px;
+	padding: 2px;
+}
+
+aside {
+	border: 1px solid yellow;
+}
+
+.a-savoir {
+	margin: 5px;
+	padding: 5px;
+	border: 2px doted yellow;
+	border-radius: 50%;
+	background-color: maroon;
+	display: inline-block;
+
+}
+
+section {
+	border: 1px solid maroon;
+}
+
+article {
+	border: 1px solid red;
+}
+
+footer {
+	border: 1px solid purple;
+}
+
+.centre {
+	text-align: center;
+}
