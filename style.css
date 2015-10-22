@@ -4,11 +4,19 @@
 
 body {
 	border: 1px solid black;
+	font-family: sans-serif;
 }
 
 header {
 	border: 1px solid blue;
 	text-align: center;
+	font-family: monospace;
+	font-size: 1.4em;
+}
+
+header h2 {
+	font-size: 1.2em;
+	color: gray;
 }
 
 nav {
@@ -18,6 +26,7 @@ nav {
 
 nav ul {
 	margin: auto;
+	width: 90%;
 }
 
 nav ul li {
@@ -29,20 +38,62 @@ nav ul li {
 
 aside {
 	border: 1px solid yellow;
+	margin: auto;
+	width: 70%;
 }
 
 .a-savoir {
 	margin: 5px;
 	padding: 5px;
-	border: 2px doted yellow;
-	border-radius: 50%;
+	border: 2px doted pink;
+	border-radius: 10%;
 	background-color: maroon;
 	display: inline-block;
 
 }
 
+.global {
+	margin: auto;
+	width: 75%;
+}
+
+.gauche {
+
+}
+
+.centre {
+	text-align: center;
+}
+
+.droite {
+
+}
+
 section {
 	border: 1px solid maroon;
+	width: 100%;
+}
+
+section.contact {
+	border: 2px dashed maroon;
+	padding: 20px;
+	width: 90%;
+	margin: auto;
+}
+
+.contact {
+	width: 50%;
+	margin: auto;
+}
+
+div {
+	display: inline-block;
+	width: 35%;
+	margin: auto;
+	border: 2px dashed brown;
+	margin: 40px;
+	padding: 10px;
+	vertical-align: top;
 }
 
 article {
@@ -55,4 +106,17 @@ footer {
 
 .centre {
 	text-align: center;
+}
+
+#besoin {
+	display: block;
+	width: 95%;
+	margin: auto;
+	height: 200px;
+}
+
+#prenom, #nom, #raison, #email {
+	display: block;
+	width: 75%;
+	margin: auto;
 }
