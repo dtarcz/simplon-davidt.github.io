@@ -3,15 +3,20 @@
 */
 
 body {
-	border: 1px solid black;
 	font-family: sans-serif;
+	color: #333;
+}
+
+#bloc-page {
+	width: 900px;
+	margin: auto;
 }
 
 header {
-	border: 1px solid blue;
 	text-align: center;
 	font-family: monospace;
 	font-size: 1.4em;
+	color: #666;
 }
 
 header h2 {
@@ -21,12 +26,8 @@ header h2 {
 
 nav {
 	border: 1px solid green;
+	width: 80%;
 	margin: auto;
-}
-
-nav ul {
-	margin: auto;
-	width: 90%;
 }
 
 nav ul li {
@@ -39,7 +40,7 @@ nav ul li {
 aside {
 	border: 1px solid yellow;
 	margin: auto;
-	width: 70%;
+	width: 90%;
 }
 
 .a-savoir {
@@ -47,25 +48,7 @@ aside {
 	padding: 5px;
 	border: 2px doted pink;
 	border-radius: 10%;
-	background-color: maroon;
 	display: inline-block;
-
-}
-
-.global {
-	margin: auto;
-	width: 75%;
-}
-
-.gauche {
-
-}
-
-.centre {
-	text-align: center;
-}
-
-.droite {
 
 }
 
@@ -94,6 +77,10 @@ div {
 	margin: 40px;
 	padding: 10px;
 	vertical-align: top;
+}
+
+div.map {
+	clear: both;
 }
 
 article {
