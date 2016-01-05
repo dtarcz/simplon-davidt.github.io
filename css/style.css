@@ -1,7 +1,63 @@
-/**
-*David TARCZEWSKI
-*/
+/*--------------------*\
+		David TARCZEWSKI
+\*--------------------*/
 
+/*
+Ligne = div qui contiendra les colonnes dont la somme font 12.
+Par exemple, une ligne contiendra deux colonnes de 7 et 5. Ou alors trois colonnes de 4.
+*/
+.row {
+	width : 960px;
+	margin : 10px auto;
+}
+.row > div {
+	float : left;
+	margin : 0 10px;
+}
+/*Comme signalé, chaque ligne fait 960 pixels de large. Le margin sert à les centrer dans la page. On définit aussi ses enfants directs (donc les colonnes) comme flottant à gauche avec une margin de 10 pixels sur les côtés pour les séparer.
+
+Il est donc très important que les lignes n’ait comme enfant direct uniquement les colonnes et que celles-ci soient des div.
+
+Dans les faits, les lignes auront un enfant supplémentaire qui devra s’insérer après toutes les colonnes pour signaler la fin d’une ligne. Voir plus loin dans le code */
+
+
+/*
+Notre système est à douze colonnes.
+Nous allons donc créer douze classes pour les représenter.
+*/
+.w-1 { width : 60px; }
+.w-2 { width : 140px; }
+.w-3 { width : 220px; }
+.w-4 { width : 300px; }
+.w-5 { width : 380px; }
+.w-6 { width : 460px; }
+.w-7 { width : 540px; }
+.w-8 { width : 620px; }
+.w-9 { width : 700px; }
+.w-10 { width : 780px; }
+.w-11 { width : 860px; }
+.w-12 { width : 940px; }
+
+/*
+Après toutes les colonnes d’une ligne, un élément devra être ajouté pour signaler la fin d’une ligne. Il s’agit d’un paragraphe vide ayant la class « clear ».
+dans le html copier :
+<p class="clear"></p>
+*/
+.clear { clear : both ; }
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------*\
+		OLD
 body {
 	font-family: sans-serif;
 	color: #333;
@@ -110,3 +166,4 @@ footer {
 	width: 75%;
 	margin: auto;
 }
+\*----------------------*/
