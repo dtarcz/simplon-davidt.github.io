@@ -129,6 +129,7 @@ section {
 }
 
 footer {
+	margin-top: 30px;
 	background-color: #65C77B;
 	color: #000000;
 }
