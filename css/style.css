@@ -66,6 +66,11 @@ header h2 {
 	color: gray;
 }
 
+nav {
+	background-color: #65C77B;
+	color: #E74C3C;
+	font-weight: bold;
+}
 nav ul {
 	max-width: 800px;
 	width: 80%;
@@ -74,9 +79,24 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	margin: 2px;
-	padding: 2px;
+	padding: 5px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #E74C3C;
+}
+nav ul li a:hover {
+	color: #006617;
 }
 
+footer {
+	background-color: #65C77B;
+	color: #000000;
+}
+footer p.contact {
+	text-align: right;
+	font-weight: bold;
+}
 
 
 
