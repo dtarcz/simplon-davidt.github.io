@@ -46,6 +46,7 @@ dans le html copier :
 .clear { clear : both ; }
 
 
+/* Apparence générale */
 body {
 	max-width: 960px;
 	width: 100%;
@@ -61,11 +62,35 @@ header {
 	color: #666;
 }
 
-header h2 {
+h2 {
 	font-size: 1.2em;
-	color: gray;
+	color: #999;
+	background-color: #fff;
+}
+h3 {
+	font-size: 0.9em;
+	color: #222;
 }
 
+section {
+	background-image:-moz-linear-gradient(30deg, #65C77B, #fff);
+	background-image:-webkit-linear-gradient(30deg, #65C77B, #fff);
+	background-image:-o-linear-gradient(30deg, #65C77B, #fff);
+	background-image:linear-gradient(60deg, #65C77B, #fff);
+}
+
+footer {
+	background-color: #65C77B;
+	color: #000000;
+}
+footer p.droite {
+	text-align: right;
+	font-weight: bold;
+}
+
+
+
+/* menu */
 nav {
 	background-color: #65C77B;
 	color: #E74C3C;
@@ -81,22 +106,21 @@ nav ul li {
 	margin: 2px;
 	padding: 5px;
 }
-nav ul li a {
+
+/* liens */
+a {
 	text-decoration: none;
 	color: #E74C3C;
 }
-nav ul li a:hover {
+a:hover {
 	color: #006617;
 }
 
-footer {
-	background-color: #65C77B;
-	color: #000000;
+header a {
+	font-family: monospace;
 }
-footer p.droite {
-	text-align: right;
-	font-weight: bold;
-}
+
+
 
 
 
