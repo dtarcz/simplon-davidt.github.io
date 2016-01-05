@@ -11,19 +11,13 @@
 		<div id="bloc-page"
 
 			<header>
-				<img src="http://lien-vers-image.png" alt="davidt's logo" title="mon logo" />
-				<h1>David TARCZEWSKI's resume, Web Developer, Graphist, with Open Source</h1>
-				<h2 id="simplon-entete">En formation avec <a href="#simplon">Simplon.co</a>, futur développeur web/mobile pour les associations et leurs outils collaboratifs</h2>
+			<?php include("header.php"); ?>
 			</header>
 
 			<nav>
-				<ul>
-				  <li><a href="#contact-form">Contact</a></li>
-				  <li><a href="http://dtar.fr/photos">Portfolio</a></li>
-				  <li><a href="https://github.com/simplon-davidt">Mon Github</a></li>
-				  <li></li>
-				</ul>
+			<?php include("nav.php"); ?>
 			</nav>
+		
 
 			<aside>
 				<div class=" gauche a-savoir">

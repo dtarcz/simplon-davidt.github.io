@@ -17,8 +17,8 @@
 		</nav>
 
     <section class="contact">
-      <div>
-				<div class="coordonees">
+
+      <div class="coordonees">
         <p>David TARCZEWSKI,<br>
           4 rue de l'Égassiairal,<br>
 					Bât. A,<br>
@@ -28,10 +28,9 @@
         <p>dtarcz-at-gmail-dot-com</p>
 			</div>
 
-				<div class="carte">
-					<img src="img/map.png" height="300px" />
-				</div>
-      </div>
+			<div class="carte">
+				<img src="img/map.png" height="400px" />
+			</div>
 
       <div class="contact">
         <form method="post" action="traitement.php" >
