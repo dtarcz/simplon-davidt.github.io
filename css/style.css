@@ -46,9 +46,36 @@ dans le html copier :
 .clear { clear : both ; }
 
 
+body {
+	max-width: 960px;
+	width: 100%;
+	margin: auto;
+	font-family: sans-serif;
+	color: #333;
+}
 
+header {
+	text-align: center;
+	font-family: monospace;
+	font-size: 1.4em;
+	color: #666;
+}
 
+header h2 {
+	font-size: 1.2em;
+	color: gray;
+}
 
+nav ul {
+	max-width: 800px;
+	width: 80%;
+	margin: auto;
+}
+nav ul li {
+	display: inline-block;
+	margin: 2px;
+	padding: 2px;
+}
 
 
 
