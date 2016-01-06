@@ -46,6 +46,50 @@ dans le html copier :
 .clear { clear : both ; }
 
 
+/*
+TABLETTES
+Pour adapter le gabarit aux tablettes, nous allons garder la même structure sauf qu’elle va être exprimée en pourcentage plutôt qu’en pixel. Ce faisant, le site prendra toute la largeur de l’écran et évitera un scroll horizontal peu adapté au format de l’appareil.
+*/
+@media only screen and (min-width:500px) and (max-width:980px) {
+	.row {
+		width : 100%;
+	}
+	.row > div {
+		margin : 0 0.5%;
+	}
+	.w-1 { width : 7.3%; }
+	.w-2 { width : 15.6%; }
+	.w-3 { width : 24%; }
+	.w-4 { width : 32.3%; }
+	.w-5 { width : 40.6%; }
+	.w-6 { width : 49%; }
+	.w-7 { width : 57.3%; }
+	.w-8 { width : 65.6%; }
+	.w-9 { width : 74%; }
+	.w-10 { width : 82.3%; }
+	.w-11 { width : 90.6%; }
+	.w-12 { width : 99%; }
+}
+
+/*
+MOBILES
+Pour le téléphone mobile, la problématique est encore plus simple puisqu’on va décider de tout mettre à la ligne. Nos colonnes feront toutes 100% de large et reviendront à la ligne. Elle n’ont, par conséquent, plus besoin de flotter à gauche.
+*/
+@media only screen and (max-width:500px) {
+	.row {
+		width : 100%;
+	}
+	.row > div {
+		margin : 0 1%;
+	}
+	.w-1, .w-2, .w-3, .w-4, .w-5, .w-6, .w-7, .w-8, .w-9, .w-10, .w-11, .w-12 {
+		width : 98%;
+		float : none;
+	}
+}
+
+
+/* Apparence générale */
 body {
 	max-width: 960px;
 	width: 100%;
@@ -64,11 +108,42 @@ header img {
 	
 }
 
-header h2 {
-	font-size: 1.2em;
-	color: gray;
+header img {
+	box-shadow: 8px 8px 12px #555;
 }
 
+h2 {
+	font-size: 1.2em;
+	color: #999;
+	background-color: #fff;
+}
+h3 {
+	font-size: 0.9em;
+	color: #222;
+}
+
+section {
+	background-image:-moz-linear-gradient(30deg, #65C77B, #fff);
+	background-image:-webkit-linear-gradient(30deg, #65C77B, #fff);
+	background-image:-o-linear-gradient(30deg, #65C77B, #fff);
+	background-image:linear-gradient(60deg, #65C77B, #fff);
+	background-color: #65C77B;
+	box-shadow: 8px 8px 12px #555;
+}
+
+footer {
+	margin-top: 30px;
+	background-color: #65C77B;
+	color: #000000;
+}
+footer p.droite {
+	text-align: right;
+	font-weight: bold;
+}
+
+
+
+/* menu */
 nav {
 	background-color: #65C77B;
 	color: #E74C3C;
@@ -84,22 +159,21 @@ nav ul li {
 	margin: 2px;
 	padding: 5px;
 }
-nav ul li a {
+
+/* liens */
+a {
 	text-decoration: none;
 	color: #E74C3C;
 }
-nav ul li a:hover {
+a:hover {
 	color: #006617;
 }
 
-footer {
-	background-color: #65C77B;
-	color: #000000;
+header a {
+	font-family: monospace;
 }
-footer p.droite {
-	text-align: right;
-	font-weight: bold;
-}
+
+
 
 
 
