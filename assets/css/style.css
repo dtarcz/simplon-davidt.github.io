@@ -120,12 +120,8 @@ h3 {
 }
 
 section {
-	background-image:-moz-linear-gradient(30deg, #65C77B, #fff);
-	background-image:-webkit-linear-gradient(30deg, #65C77B, #fff);
-	background-image:-o-linear-gradient(30deg, #65C77B, #fff);
-	background-image:linear-gradient(60deg, #65C77B, #fff);
-	background-color: #65C77B;
-	box-shadow: 8px 8px 12px #555;
+	background-color: #B7FFBC;
+	box-shadow: 0px 2px 3px #555;
 }
 
 footer {
