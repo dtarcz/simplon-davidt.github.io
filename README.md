@@ -1,7 +1,7 @@
 # CV de David TARCZEWSKI
 ## Réalisé durant la formation Simplon et régulièrement amélioré en fonction des technologies maitrisées.
 
-![Capture d'écran du CV début janvier 2016](https://github.com/simplon-davidt/simplon-davidt.github.io/blob/master/img/Capture-CV-du-2016-01-06_00-07-35.png)
+![Capture d'écran du CV début janvier 2016](https://github.com/simplon-davidt/simplon-davidt.github.io/blob/master/assets/img/Capture-CV-du-2016-01-06_00-07-35.png)
 
 [Rendez-vous sur cette page pour visualiser mon CV](http://simplon-davidt.github.io)
 
