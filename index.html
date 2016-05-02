@@ -21,15 +21,18 @@
 
 	<body>
 
-		<div id="bloc-page">
+		<div id="bloc-page" class="container">
 
 			<header>
 
 				<div class="row">
-					<div class="w-3">
-						<img src="http://dtar.fr/blog/data/medias/dscn0728-avatar.png" alt="davidt's photo" title="David's photo 2015" width="100" />
+					<div class="w-3 col-sm-3">
+						<p class="text-center">
+							<img src="http://dtar.fr/blog/data/medias/dscn0728-avatar.png" alt="davidt's photo" title="David's photo 2015" width="100" />
+						</p>
+
 					</div>
-					<div class="w-9">
+					<div class="w-9 col-sm-9 text-center">
 						<h1>David TARCZEWSKI</h1>
 						<h2>Web Developer & Graphist</h2>
 						<blockquote>Une volonté de créer <strong>de belles choses</strong> au service de tous&nbsp;!</blockquote>
@@ -43,7 +46,7 @@
 			<nav>
 
 				<div class="row">
-					<div class="w-12">
+					<div class="w-12 col-sm-12">
 						<ul>
 						  <li><a href="form.html">Contact</a></li>
 						  <li><a href="#">Portfolio</a></li>
@@ -60,66 +63,69 @@
 			<section>
 
 				<div class="row">
+					<div class="col-sm-12">
+						<h2>Technologies</h2>
+					</div>
+				</div>
 
-					<h2>Technologies</h2>
+				<div class="row">
+					<div class="w-4 col-sm-12 col-md-4">
+						<h3 class="border">Langages de présentation&nbsp;:</h3>
+						<ul>
+							<li>
+								<img src="assets/img/html5.svg" alt="HTML5 logo" height="50" title="HTML5" />
+								<div class="barre" data-length="60"></div>
+							</li>
+							<li>
+								<img src="assets/img/css3.svg" alt="CSS3 logo" height="50" title="CSS3" />
+								<div class="barre" data-length="60"></div>
+							</li>
+						</ul>
+					</div>
 
-						<div class="w-4">
-							<h3 class="border">Langages de présentation&nbsp;:</h3>
-							<ul>
-								<li>
-									<img src="assets/img/html5.svg" alt="HTML5 logo" height="50" title="HTML5" />
-									<div class="barre" data-length="60"></div>
-								</li>
-								<li>
-									<img src="assets/img/css3.svg" alt="CSS3 logo" height="50" title="CSS3" />
-									<div class="barre" data-length="60"></div>
-								</li>
-							</ul>
-						</div>
+					<div class="w-4 col-sm-12 col-md-4">
+						<h3 class="border">Langages de programmation&nbsp;:</h3>
+						<ul>
+							<li>
+								<img src="assets/img/bash.png" alt="BASH logo" height="50" title="Bourne Against SHell" />
+								<div class="barre" data-length="70"></div>
+							</li>
+							<li>
+								<img src="assets/img/php-logo.svg" alt="PHP logo" height="50" title="PHP" />
+								<div class="barre" data-length="50"></div>
+							</li>
+							<li>
+								<img src="assets/img/200px-JavaScript-logo.png" alt="JavaScript" height="50" title="JavaScript" />
+								<div class="barre" data-length="30"></div>
+							</li>
+						</ul>
+					</div>
 
-						<div class="w-4">
-							<h3 class="border">Langages de programmation&nbsp;:</h3>
-							<ul>
-								<li>
-									<img src="assets/img/bash.png" alt="BASH logo" height="50" title="Bourne Against SHell" />
-									<div class="barre" data-length="70"></div>
-								</li>
-								<li>
-									<img src="assets/img/php-logo.svg" alt="PHP logo" height="50" title="PHP" />
-									<div class="barre" data-length="50"></div>
-								</li>
-								<li>
-									<img src="assets/img/200px-JavaScript-logo.png" alt="JavaScript" height="50" title="JavaScript" />
-									<div class="barre" data-length="30"></div>
-								</li>
-							</ul>
-						</div>
-
-						<div class="w-4">
-							<h3 class="border">Outils&nbsp;:</h3>
-							<ul>
-								<li>
-									<img src="assets/img/Git-Logo-2Color.png" alt="Git logo 2 couleurs" height="50" title=" système de gestion de versions: Git" />
-									<div class="barre" data-length="70"></div>
-								</li>
-								<li>
-									<img src="assets/img/Vimlogo.svg" alt="Vim logo" height="50" title="éditeur de texte Vim" />
-									<div class="barre" data-length="80"></div>
-								</li>
-								<li>
-									<img src="assets/img/irc.png" alt="IRC" height="50" title="utilisation de l'IRC pour une communication plus efficace !" />
-									<div class="barre" data-length="60"></div>
-								</li>
-								<li>
-									<img src="assets/img/ligne-de-commande.png" alt="la ligne de commande" height="50" title="utilisation intensive de la console" />
-									<div class="barre" data-length="70"></div>
-								</li>
-								<li>
-									<img src="assets/img/tux.jpg" alt="Linux logo" height="50" title="système d'exploitation Linux Ubuntu" />
-									<div class="barre" data-length="60"></div>
-								</li>
-							</ul>
-						</div>
+					<div class="w-4 col-sm-12 col-md-4">
+						<h3 class="border">Outils&nbsp;:</h3>
+						<ul>
+							<li>
+								<img src="assets/img/Git-Logo-2Color.png" alt="Git logo 2 couleurs" height="50" title=" système de gestion de versions: Git" />
+								<div class="barre" data-length="70"></div>
+							</li>
+							<li>
+								<img src="assets/img/Vimlogo.svg" alt="Vim logo" height="50" title="éditeur de texte Vim" />
+								<div class="barre" data-length="80"></div>
+							</li>
+							<li>
+								<img src="assets/img/irc.png" alt="IRC" height="50" title="utilisation de l'IRC pour une communication plus efficace !" />
+								<div class="barre" data-length="60"></div>
+							</li>
+							<li>
+								<img src="assets/img/ligne-de-commande.png" alt="la ligne de commande" height="50" title="utilisation intensive de la console" />
+								<div class="barre" data-length="70"></div>
+							</li>
+							<li>
+								<img src="assets/img/tux.jpg" alt="Linux logo" height="50" title="système d'exploitation Linux Ubuntu" />
+								<div class="barre" data-length="60"></div>
+							</li>
+						</ul>
+					</div>
 
 						<p class="clear"></p>
 				</div>
@@ -129,9 +135,13 @@
 			<section>
 
 				<div class="row">
-					<h2>Expériences&nbsp;:</h2>
+					<div class="col-sm-12">
+						<h2>Expériences&nbsp;:</h2>
+					</div>
+				</div>
 
-					<div class="w-6">
+				<div class="row">
+					<div class="w-6 col-sm-6">
 
 						<h3 class="border">Expériences professionnelles</h3>
 						<h4>Médiateur numérique auprès de l'Éducation Nationale</h4>
@@ -149,7 +159,7 @@
 
 					</div>
 
-					<div class="w-6">
+					<div class="w-6 col-sm-6">
 							<h3 class="border">Expériences Associatives&nbsp;:</h3>
 							<p>Riches expériences liées à mon activité bénévole dans des associations citoyennes.</p>
 							<ul>
@@ -167,9 +177,13 @@
 			<section>
 
 				<div class="row">
-					<h2>Formation&nbsp;:</h2>
+					<div class="col-sm-12">
+						<h2>Formation&nbsp;:</h2>
+					</div>
+				</div>
 
-					<div class="w-4">
+				<div class="row">
+					<div class="w-4 col-sm-4">
 						<h3 class="border">Cursus Suivi</h3>
 						<p id="simplon"><a href="#simplon-entete">Simplon.co</a>, à Narbonne, promo 2015.</p>
 						<p>
@@ -185,7 +199,7 @@
 						</p>
 					</div>
 
-					<div class="w-4">
+					<div class="w-4 col-sm-4">
 						<h3 class="border">Autoformation&nbsp;:</h3>
 						<p>Participation à des MOOC&nbsp;:</p>
 						<ul>
@@ -194,7 +208,7 @@
 						</ul>
 					</div>
 
-					<div class="w-4">
+					<div class="w-4 col-sm-4">
 						<h3 class="border">Badges&nbsp;:</h3>
 						<p>
 							<a href="https://backpack.openbadges.org/share/5e55414d5a0e1e70eee85058f3df11c2/">Mozilla</a>
@@ -215,9 +229,13 @@
 			<section>
 
 				<div class="row">
-					<h2>Divers</h2>
+					<div class="col-sm-12">
+						<h2>Divers</h2>
+					</div>
+				</div>
 
-					<div class="w-4">
+				<div class="row">
+					<div class="w-4 col-sm-4">
 						<h3 class="border">Loisirs&nbsp;:</h3>
 						<ul>
 							<li>Guitare</li>
@@ -226,7 +244,7 @@
 						</ul>
 					</div>
 
-					<div class="w-4">
+					<div class="w-4 col-sm-4">
 						<h3 class="border">Sports&nbsp;:</h3>
 						<ul>
 							<li>Randonnée</li>
@@ -235,7 +253,7 @@
 						</ul>
 					</div>
 
-					<div class="w-4">
+					<div class="w-4 col-sm-4">
 						<h3 class="border">Autres Activités&nbsp;:</h3>
 						<ul>
 							<li>Reïki</li>
@@ -256,22 +274,22 @@
 
 				<div class="row">
 
-					<div class="w-6">
-						<p>Site crée par David, en octobre 2015,<br>
-						Mis à jour le 05 janvier 2016 avec un CSS responsive.</p>
-						<p>
-							retouches debut mars 2016.
+					<div class="w-6 col-sm-6">
+						<p class="small">Site crée par David, en octobre 2015,<br>
+						Mis à jour le 05 janvier 2016 avec un CSS responsive personnalisé,</br>
+						retouches majeures debut mars 2016.</br>
+						Installation de Bootstrap en mai 2016...
 						</p>
 					</div>
 
-					<div class="w-3">
-						<p class="droite">
+					<div class="w-3 col-sm-3">
+						<p class="droite text-center">
 							<a href="form.html">Pour réaliser votre site, <br>
 							Contactez-moi :)</a>
 						</p>
 					</div>
 
-					<div class="w-3">
+					<div class="w-3 col-sm-3">
 						<p class="droite">
     					<a href="http://jigsaw.w3.org/css-validator/check/referer">
         			<img style="border:0;width:88px;height:31px"
