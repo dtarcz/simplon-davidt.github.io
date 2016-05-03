@@ -6,6 +6,7 @@
 Ligne = div qui contiendra les colonnes dont la somme font 12.
 Par exemple, une ligne contiendra deux colonnes de 7 et 5. Ou alors trois colonnes de 4.
 */
+/*
 .row {
 	width : 960px;
 	margin : 10px auto;
@@ -24,7 +25,7 @@ Dans les faits, les lignes auront un enfant supplémentaire qui devra s’insér
 /*
 Notre système est à douze colonnes.
 Nous allons donc créer douze classes pour les représenter.
-*/
+
 .w-1 { width : 60px; }
 .w-2 { width : 140px; }
 .w-3 { width : 220px; }
@@ -38,18 +39,18 @@ Nous allons donc créer douze classes pour les représenter.
 .w-11 { width : 860px; }
 .w-12 { width : 940px; }
 
-/*
+
 Après toutes les colonnes d’une ligne, un élément devra être ajouté pour signaler la fin d’une ligne. Il s’agit d’un paragraphe vide ayant la class « clear ».
 dans le html copier :
 <p class="clear"></p>
-*/
+
 .clear { clear : both ; }
 
 
-/*
+
 TABLETTES
 Pour adapter le gabarit aux tablettes, nous allons garder la même structure sauf qu’elle va être exprimée en pourcentage plutôt qu’en pixel. Ce faisant, le site prendra toute la largeur de l’écran et évitera un scroll horizontal peu adapté au format de l’appareil.
-*/
+
 @media only screen and (min-width:500px) and (max-width:980px) {
 	.row {
 		width : 100%;
@@ -71,10 +72,10 @@ Pour adapter le gabarit aux tablettes, nous allons garder la même structure sau
 	.w-12 { width : 99%; }
 }
 
-/*
+
 MOBILES
 Pour le téléphone mobile, la problématique est encore plus simple puisqu’on va décider de tout mettre à la ligne. Nos colonnes feront toutes 100% de large et reviendront à la ligne. Elle n’ont, par conséquent, plus besoin de flotter à gauche.
-*/
+
 @media only screen and (max-width:500px) {
 	.row {
 		width : 100%;
@@ -87,42 +88,42 @@ Pour le téléphone mobile, la problématique est encore plus simple puisqu’on
 		float : none;
 	}
 }
-
+*/
 
 /* Apparence générale */
-body {
+/*body {
 	max-width: 960px;
 	width: 100%;
 	margin: auto;
 	font-family: sans-serif;
 	color: #333;
-}
+}*/
 
-header {
+/*header {
 	text-align: center;
 	font-family: monospace;
 	font-size: 1.4em;
 	color: #666;
-}
-header img {
-
-}
+}*/
 
 header img {
+	margin-top: 10px;
 	box-shadow: 8px 8px 12px #555;
 }
 
-h2 {
+/*h2 {
 	font-size: 1.2em;
 	color: #999;
 	background-color: #fff;
-}
-h3 {
-	font-size: 0.9em;
+}*/
+h3.border {
+	font-size: 1.1em;
 	color: #222;
+	border: 1px dotted #222;
 }
 
 section {
+	margin-top: 5px;
 	background-color: #B7FFBC;
 	box-shadow: 0px 2px 3px #555;
 }
@@ -133,6 +134,7 @@ footer {
 	color: #000000;
 }
 footer p.droite {
+	margin-top: 5px;
 	text-align: right;
 	font-weight: bold;
 }
